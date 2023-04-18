@@ -1,0 +1,25 @@
+button {
+  box-sizing: border-box;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 35%;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
