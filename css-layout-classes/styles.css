@@ -1,0 +1,17 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fourth {
+  max-width: 250px;
+}
+
+p {
+  text-align: justify;
+}
