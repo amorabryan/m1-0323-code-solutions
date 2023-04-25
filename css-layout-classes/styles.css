@@ -9,9 +9,21 @@
 }
 
 .column-one-fourth {
-  max-width: 250px;
+  flex-basis: 25%;
+}
+
+img {
+  width: 100%;
 }
 
 p {
   text-align: justify;
+}
+
+.column-one-third {
+  flex-basis: calc(100%/3);
+}
+
+.column-two-thirds {
+  flex-basis: calc((100%/3) * 2);
 }
