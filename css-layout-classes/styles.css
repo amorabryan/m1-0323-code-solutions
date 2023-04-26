@@ -1,0 +1,29 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+.column-one-third {
+  flex-basis: calc(100%/3);
+}
+
+.column-two-thirds {
+  flex-basis: calc((100%/3) * 2);
+}
